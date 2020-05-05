@@ -144,7 +144,7 @@ chmod +x /usr/local/bin/docker-compose
 
 #### Persisting user-defined networks
 
-By default, UnRAID will not persist user-defined Docker networks such as the one this stack will create. You'll need to enable this setting in order to avoid having to re-run `docker-compose up -d` every time your server is rebooted. It's found in the _Docker_ tab, you'll need to set _Advanced View_ to On and stop the Docker service to make the change.
+By default, UnRAID will not persist user-defined Docker networks such as the one this stack will create. You'll need to enable this setting in order to avoid having to re-run `docker-compose up -d` every time your server is rebooted. It's found in the _Settings_ tab under _Docker_ settings, you'll need to set _Advanced View_ to On and stop the Docker service to make the change.
 
 #### UnRAID UI port conflict
 
